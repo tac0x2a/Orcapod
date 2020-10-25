@@ -12,4 +12,4 @@ RUN ["java", "-jar", "/opt/embulk.jar", "gem", "install", \
   ]
 
 ENTRYPOINT ["java", "-jar", "/opt/embulk.jar"]
-CMD ["--help"]
+# CMD ["--help"]
